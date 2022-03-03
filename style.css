@@ -1,6 +1,12 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 /*
 	BARVY
@@ -13,7 +19,35 @@ html { box-sizing: border-box; }
 	twitter    #1da1f2
 */
 
-
 body {
-	background-color: #bdc3c7;
+  background-color: #bdc3c7;
+  color: #fff;
+}
+.profil {
+  width: 300px;
+  background-color: #31363b;
+}
+.foto {
+  width: 300px;
+}
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  float: right;
+}
+.jmeno {
+}
+.obsah {
+  padding: 20px;
+}
+ul li {
+  list-style-type: none;
+}
+ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.twitter {
+  float: right;
 }

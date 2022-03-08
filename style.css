@@ -30,15 +30,29 @@ body {
 .foto {
   width: 300px;
 }
+.hlavicka {
+  position: relative;
+}
 .logo {
   background-color: #b92e81;
   border-radius: 50%;
-  float: right;
+  /* float: right; */
+  /*margin: 0 25px 25px 0;*/
+  z-index: 1;
+  position: absolute;
+  top: 170px;
+  right: 15px;
 }
 .jmeno {
 }
 .obsah {
   padding: 20px;
+}
+.obsah h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+.obsah p {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 ul li {
   list-style-type: none;
@@ -48,6 +62,41 @@ ul li a {
   text-transform: uppercase;
   text-decoration: none;
 }
-.twitter {
+.odkazy {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  text-align: center;
+}
+
+.facebook {
+  display: inline-block;
+  padding: 15px 0;
+  width: 49%;
+}
+.facebook:hover {
+  background-color: #3b5998;
+}
+/* .twitter {
   float: right;
+  padding: 0 0 20px 0;
+} */
+
+.twitter {
+  display: inline-block;
+  background-color: #1da1f2;
+  padding: 15px 0;
+  width: 49%;
+}
+.twitter:hover {
+  background-color: #1da1f2;
+}
+.portfolio {
+  border-bottom: 1px solid #3f464d;
+  border-top: 1px solid #3f464d;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.portfolio:hover {
+  background-color: #e74c3c;
 }
